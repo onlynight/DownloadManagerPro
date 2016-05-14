@@ -23,7 +23,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-        compile 'com.github.onlynight:MultiThreadDownloader:1.4.3'
+    compile 'com.github.onlynight:DownloadManagerPro:1.0.0'
 }
 ```
 
