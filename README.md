@@ -7,6 +7,26 @@ Android-Download-Manager
 
 Android/Java download manager library help you to download files in parallel mechanism in some chunks.
 
+Usages
+======
+Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+    repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+Step 2. Add the dependency
+```
+dependencies {
+        compile 'com.github.onlynight:MultiThreadDownloader:1.4.3'
+}
+```
+
+
 Overview
 ========
 
